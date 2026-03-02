@@ -55,7 +55,7 @@ func (s *AuthService) Register(ctx context.Context, email, password string, role
 		Email:        email,
 		PasswordHash: passwordHash,
 		Role:         role,
-		Status:       domain.StatusPendingEmail,
+		Status:       domain.StatusActive,
 	}
 
 	if err := s.userRepo.Create(ctx, user); err != nil {
