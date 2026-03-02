@@ -1,0 +1,24 @@
+DROP TABLE IF EXISTS complaints;
+DROP TABLE IF EXISTS invitations;
+DROP TABLE IF EXISTS applications;
+DROP TABLE IF EXISTS castings;
+DROP TABLE IF EXISTS model_photo_tags;
+DROP TABLE IF EXISTS model_photos;
+DROP TABLE IF EXISTS model_categories;
+DROP TABLE IF EXISTS agency_profiles;
+DROP TABLE IF EXISTS model_profiles;
+DROP TABLE IF EXISTS photo_tags;
+DROP TABLE IF EXISTS categories;
+DROP TABLE IF EXISTS refresh_tokens;
+DROP TABLE IF EXISTS email_verifications;
+DROP TABLE IF EXISTS users;
+
+DROP TYPE IF EXISTS complaint_status;
+DROP TYPE IF EXISTS complaint_reason;
+DROP TYPE IF EXISTS complaint_target_type;
+DROP TYPE IF EXISTS application_status;
+DROP TYPE IF EXISTS casting_status;
+DROP TYPE IF EXISTS moderation_status;
+DROP TYPE IF EXISTS agency_status;
+DROP TYPE IF EXISTS user_status;
+DROP TYPE IF EXISTS user_role;
